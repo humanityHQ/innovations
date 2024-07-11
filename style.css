@@ -150,10 +150,11 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: auto; /* Changed from 96vh to auto */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  padding-bottom: 4vh; /* Added padding-bottom for consistent spacing */
 }
 
 .section-container {
@@ -328,6 +329,7 @@ section {
 
 #experience {
   position: relative;
+  margin-bottom: 2rem; /* Added margin-bottom to reduce space after this section */
 }
 
 .experience-sub-title {
@@ -396,8 +398,11 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto; /* Changed from 70vh to auto */
+  padding-top: 2rem; /* Adjusted padding for better spacing */
+  padding-bottom: 2rem; /* Adjusted padding for better spacing */
 }
+
 
 .contact-info-upper-container {
   display: flex;
@@ -433,8 +438,9 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: auto; /* Changed from 26vh to auto */
   margin: 0 1rem;
+  padding: 1rem 0; /* Added padding for consistent spacing */
 }
 
 footer p {
